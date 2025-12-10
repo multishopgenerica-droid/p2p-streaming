@@ -1,25 +1,25 @@
 import React from 'react';
 
 const POSTERS = [
-  "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&q=80&w=400", // Placeholder for Shang-Chi
-  "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?auto=format&fit=crop&q=80&w=400", // Placeholder for 365 Days
-  "https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?auto=format&fit=crop&q=80&w=400", // Batman
-  "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?auto=format&fit=crop&q=80&w=400", // Beekeeper
-  "https://images.unsplash.com/photo-1616530940355-351fabd9524b?auto=format&fit=crop&q=80&w=400", // Godzilla
-  "https://images.unsplash.com/photo-1509347528160-9a9e33742cd4?auto=format&fit=crop&q=80&w=400", // Evil Dead
-  "https://images.unsplash.com/photo-1635805737707-575885ab0820?auto=format&fit=crop&q=80&w=400", // Minions
-  "https://images.unsplash.com/photo-1560169897-fc0cdbdfa4d5?auto=format&fit=crop&q=80&w=400", // Inside Out
+  "https://drive.google.com/file/d/15Q_W3pyDa5tj3IBYtUyv0xE7PRRnvR9n/view?usp=drive_link", // Placeholder for Shang-Chi
+  "https://drive.google.com/file/d/1kHqQkB8zTFf9ffAHx9gClB5iYG_rkhGV/view?usp=drive_link", // Placeholder for 365 Days
+  "https://drive.google.com/file/d/1PpGrArCm4rR-m_BvUDS_F3bSJmpsyYwj/view?usp=drive_link", // Batman
+  "https://drive.google.com/file/d/1PpGrArCm4rR-m_BvUDS_F3bSJmpsyYwj/view?usp=drive_link", // Beekeeper
+  "https://drive.google.com/file/d/1K535YVhM4Jw3-ATAoGgZamJ0n1Lu9YKW/view?usp=drive_link", // Godzilla
+  "https://drive.google.com/file/d/1vaW0U4hWR9zr6tEC-8YEF6WWjGDV4A22/view?usp=drive_link", // Evil Dead
+  "https://drive.google.com/file/d/1vaW0U4hWR9zr6tEC-8YEF6WWjGDV4A22/view?usp=drive_link", // Minions
+  "https://drive.google.com/file/d/11fio5PtGsPBO55ttkl7PNdXB4Ar067Ur/view?usp=drive_link", // Inside Out
 ];
 
 const SERIES = [
-  "https://images.unsplash.com/photo-1521714161819-15534968fc5f?auto=format&fit=crop&q=80&w=400", // Grey's Anatomy
-  "https://images.unsplash.com/photo-1595769816263-9b910be24d5f?auto=format&fit=crop&q=80&w=400", // GOT
-  "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&q=80&w=400", // Breaking Bad
-  "https://images.unsplash.com/photo-1478720568477-152d9b164e63?auto=format&fit=crop&q=80&w=400", // Supernatural
-  "https://images.unsplash.com/photo-1505775561242-727b7fba20f0?auto=format&fit=crop&q=80&w=400", // Peaky Blinders
-  "https://images.unsplash.com/photo-1512149177596-f817c7ef5d4c?auto=format&fit=crop&q=80&w=400", // Start Up
-  "https://images.unsplash.com/photo-1515634918659-061b5853611a?auto=format&fit=crop&q=80&w=400", // Kara Sevda
-  "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=400", // Bridgerton
+  "https://drive.google.com/file/d/1faNAdPsXsQQl0Kq-FzHeGS1ctEBNvXgC/view?usp=drive_link", // Grey's Anatomy
+  "https://drive.google.com/file/d/1q8nzOGmg_a7bLDPN2OxZGMdWQazhm3YQ/view?usp=drive_link", // GOT
+  "https://drive.google.com/file/d/1evZEYBgjvcWsm7ecYmxOvLeHCzpY27W6/view?usp=drive_link", // Breaking Bad
+  "https://drive.google.com/file/d/1BKGkCLCw63U2sL-DlKUV7vvbNCPtyw59/view?usp=drive_link", // Supernatural
+  "https://drive.google.com/file/d/1q7Py48Whet5z0i1iu9QqD1H9NIHFBNN6/view?usp=drive_link", // Peaky Blinders
+  "https://drive.google.com/file/d/1ft4tXIydLqNlWdhWF6MYXMAv_dqJOEty/view?usp=drive_link", // Start Up
+  "https://drive.google.com/file/d/1EEJSV5n5AYRAEFAyDjPLUdom-tLqwvVN/view?usp=drive_link", // Kara Sevda
+  "https://drive.google.com/file/d/1_ICiEz_nXWscHDGsNat-6X4u682Ipo1e/view?usp=drive_link", // Bridgerton
 ];
 
 export const CatalogSection: React.FC = () => {
