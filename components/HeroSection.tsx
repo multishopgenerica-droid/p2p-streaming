@@ -73,7 +73,7 @@ export const HeroSection: React.FC = () => {
                 
                 {/* Mockup Composition */}
                 <img 
-                  src="https://images.unsplash.com/photo-1593784653277-202937953c3e?auto=format&fit=crop&q=80&w=1000" 
+                  src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&q=80&w=1000" 
                   alt="TV Screen" 
                   className="absolute top-0 right-0 w-[85%] lg:w-[80%] h-auto rounded-2xl shadow-2xl border border-white/5 z-10 transform rotate-y-[-5deg] hover:rotate-y-0 transition-transform duration-700"
                 />
