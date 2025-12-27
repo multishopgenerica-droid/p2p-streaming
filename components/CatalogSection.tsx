@@ -2,7 +2,7 @@ import React from 'react';
 
 const POSTERS = [
   "https://image.tmdb.org/t/p/w500/xRWht48C2V8XNfzvPehyClOvDni.jpg", // Shang-Chi
-  "https://image.tmdb.org/t/p/w500/pVao2W0v1GxgfVIHp4epqdL7Kq4.jpg", // 365 Days
+  "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg", // Avengers Endgame
   "https://image.tmdb.org/t/p/w500/74xTEgt7R36Fpooo50r9T25onhq.jpg", // Batman
   "https://image.tmdb.org/t/p/w500/A7EByudX0eOzlkQ2FIbogzyazm2.jpg", // Beekeeper
   "https://image.tmdb.org/t/p/w500/z1p34vh7dEOnLDmyCrlUVLuoDzd.jpg", // Godzilla vs Kong
@@ -18,7 +18,7 @@ const SERIES = [
   "https://image.tmdb.org/t/p/w500/KoYWXbnYuS3b0GyQPkbuexlVK9.jpg", // Supernatural
   "https://image.tmdb.org/t/p/w500/vUUqzWa2LnHIVqkaKVlVGkVcZIW.jpg", // Peaky Blinders
   "https://image.tmdb.org/t/p/w500/4XddcRDtnNjYmLRMYpbrhFxsbuq.jpg", // Start-Up
-  "https://image.tmdb.org/t/p/w500/o2pStTrsHenpo6FeohvVg5p1EXr.jpg", // Endless Love
+  "https://image.tmdb.org/t/p/w500/mYLOqiStMxDK3fYZFirgrMt8z5d.jpg", // The Witcher
   "https://image.tmdb.org/t/p/w500/luoKpgVwi1E5nQsi7W0UuKHu2Rq.jpg", // Bridgerton
 ];
 
