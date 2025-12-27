@@ -2,8 +2,10 @@ import React from 'react';
 
 export const FloatingWhatsApp: React.FC = () => {
   return (
-    <a 
-      href="#" 
+    <a
+      href="https://wa.me/5551810643996?text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20o%20suporte%20para%20comprar%20o%20P2P%20Stream.%20Pode%20me%20ajudar%3F"
+      target="_blank"
+      rel="noopener noreferrer"
       className="fixed bottom-6 right-6 z-50 flex items-center gap-2 bg-[#25D366] text-white px-5 py-3.5 rounded-full shadow-[0_0_20px_rgba(37,211,102,0.5)] hover:scale-110 transition-transform duration-300 group animate-[bounce_2s_infinite]"
       aria-label="Falar no WhatsApp"
       style={{ animation: 'bounce 3s infinite' }}
