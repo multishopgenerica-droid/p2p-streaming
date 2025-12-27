@@ -1,25 +1,25 @@
 import React from 'react';
 
 const POSTERS = [
-  "https://drive.google.com/file/d/15Q_W3pyDa5tj3IBYtUyv0xE7PRRnvR9n/view?usp=drive_link", // Placeholder for Shang-Chi
-  "https://drive.google.com/file/d/1kHqQkB8zTFf9ffAHx9gClB5iYG_rkhGV/view?usp=drive_link", // Placeholder for 365 Days
-  "https://drive.google.com/file/d/1PpGrArCm4rR-m_BvUDS_F3bSJmpsyYwj/view?usp=drive_link", // Batman
-  "https://drive.google.com/file/d/1PpGrArCm4rR-m_BvUDS_F3bSJmpsyYwj/view?usp=drive_link", // Beekeeper
-  "https://drive.google.com/file/d/1K535YVhM4Jw3-ATAoGgZamJ0n1Lu9YKW/view?usp=drive_link", // Godzilla
-  "https://drive.google.com/file/d/1vaW0U4hWR9zr6tEC-8YEF6WWjGDV4A22/view?usp=drive_link", // Evil Dead
-  "https://drive.google.com/file/d/1vaW0U4hWR9zr6tEC-8YEF6WWjGDV4A22/view?usp=drive_link", // Minions
-  "https://drive.google.com/file/d/11fio5PtGsPBO55ttkl7PNdXB4Ar067Ur/view?usp=drive_link", // Inside Out
+  "https://image.tmdb.org/t/p/w500/xRWht48C2V8XNfzvPehyClOvDni.jpg", // Shang-Chi
+  "https://image.tmdb.org/t/p/w500/pVao2W0v1GxgfVIHp4epqdL7Kq4.jpg", // 365 Days
+  "https://image.tmdb.org/t/p/w500/74xTEgt7R36Fpooo50r9T25onhq.jpg", // Batman
+  "https://image.tmdb.org/t/p/w500/A7EByudX0eOzlkQ2FIbogzyazm2.jpg", // Beekeeper
+  "https://image.tmdb.org/t/p/w500/z1p34vh7dEOnLDmyCrlUVLuoDzd.jpg", // Godzilla vs Kong
+  "https://image.tmdb.org/t/p/w500/5ik4ATKmNtmJU6AYD0bLm56BCVM.jpg", // Evil Dead Rise
+  "https://image.tmdb.org/t/p/w500/wKiOkZTN9lUUUNZLmtnwubZYONg.jpg", // Minions
+  "https://image.tmdb.org/t/p/w500/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg", // Inside Out 2
 ];
 
 const SERIES = [
-  "https://drive.google.com/file/d/1faNAdPsXsQQl0Kq-FzHeGS1ctEBNvXgC/view?usp=drive_link", // Grey's Anatomy
-  "https://drive.google.com/file/d/1q8nzOGmg_a7bLDPN2OxZGMdWQazhm3YQ/view?usp=drive_link", // GOT
-  "https://drive.google.com/file/d/1evZEYBgjvcWsm7ecYmxOvLeHCzpY27W6/view?usp=drive_link", // Breaking Bad
-  "https://drive.google.com/file/d/1BKGkCLCw63U2sL-DlKUV7vvbNCPtyw59/view?usp=drive_link", // Supernatural
-  "https://drive.google.com/file/d/1q7Py48Whet5z0i1iu9QqD1H9NIHFBNN6/view?usp=drive_link", // Peaky Blinders
-  "https://drive.google.com/file/d/1ft4tXIydLqNlWdhWF6MYXMAv_dqJOEty/view?usp=drive_link", // Start Up
-  "https://drive.google.com/file/d/1EEJSV5n5AYRAEFAyDjPLUdom-tLqwvVN/view?usp=drive_link", // Kara Sevda
-  "https://drive.google.com/file/d/1_ICiEz_nXWscHDGsNat-6X4u682Ipo1e/view?usp=drive_link", // Bridgerton
+  "https://image.tmdb.org/t/p/w500/zPIug5giU8oug6Xes5K1sTfQJxY.jpg", // Grey's Anatomy
+  "https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg", // Game of Thrones
+  "https://image.tmdb.org/t/p/w500/ggFHVNu6YYI5L9pCfOacjizRGt.jpg", // Breaking Bad
+  "https://image.tmdb.org/t/p/w500/KoYWXbnYuS3b0GyQPkbuexlVK9.jpg", // Supernatural
+  "https://image.tmdb.org/t/p/w500/vUUqzWa2LnHIVqkaKVlVGkVcZIW.jpg", // Peaky Blinders
+  "https://image.tmdb.org/t/p/w500/4XddcRDtnNjYmLRMYpbrhFxsbuq.jpg", // Start-Up
+  "https://image.tmdb.org/t/p/w500/o2pStTrsHenpo6FeohvVg5p1EXr.jpg", // Endless Love
+  "https://image.tmdb.org/t/p/w500/luoKpgVwi1E5nQsi7W0UuKHu2Rq.jpg", // Bridgerton
 ];
 
 export const CatalogSection: React.FC = () => {
@@ -61,9 +61,14 @@ export const CatalogSection: React.FC = () => {
         </div>
         
         <div className="text-center mt-12 relative z-10">
-          <button className="bg-[#FF6B00] text-black font-black px-12 py-5 rounded-full hover:scale-105 hover:bg-orange-500 transition-all shadow-[0_0_30px_rgba(255,107,0,0.3)] uppercase tracking-wide text-sm md:text-base">
+          <a
+            href="https://ev.braip.com/checkout/plaxx200/chej5879"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-[#FF6B00] text-black font-black px-12 py-5 rounded-full hover:scale-105 hover:bg-orange-500 transition-all shadow-[0_0_30px_rgba(255,107,0,0.3)] uppercase tracking-wide text-sm md:text-base"
+          >
             QUERO TER ACESSO A TODO ESSE CONTEÚDO
-          </button>
+          </a>
         </div>
 
       </div>

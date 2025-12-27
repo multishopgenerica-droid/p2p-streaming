@@ -7,6 +7,7 @@ export interface Plan {
   price: string;
   oldPrice?: string;
   featured: boolean;
+  checkoutUrl: string;
   benefits: string[];
 }
 

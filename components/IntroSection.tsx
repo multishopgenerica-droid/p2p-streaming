@@ -39,7 +39,13 @@ export const IntroSection: React.FC = () => {
             </div>
 
             <div className="pt-4">
-              <Button pulsing className="px-10">QUERO FAZER PARTE</Button>
+              <a
+                href="https://ev.braip.com/checkout/plaxx200/chej5879"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button pulsing className="px-10">QUERO FAZER PARTE</Button>
+              </a>
             </div>
           </div>
 

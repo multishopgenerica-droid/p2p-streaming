@@ -74,13 +74,17 @@ export const OfferSection: React.FC = () => {
                      {plan.duration} de Acesso
                    </div>
                    
-                   <button className={`w-full py-4 rounded-full font-black text-base uppercase tracking-wider transition-all hover:scale-105 hover:shadow-lg ${
-                    plan.featured 
-                      ? 'bg-black text-white hover:bg-gray-900 shadow-xl' 
+                   <a
+                    href={plan.checkoutUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`block w-full py-4 rounded-full font-black text-base uppercase tracking-wider transition-all hover:scale-105 hover:shadow-lg text-center ${
+                    plan.featured
+                      ? 'bg-black text-white hover:bg-gray-900 shadow-xl'
                       : 'bg-[#FF6B00] text-black hover:bg-[#ff8533]'
                   }`}>
                     COMPRAR AGORA
-                  </button>
+                  </a>
                 </div>
 
               </div>

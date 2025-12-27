@@ -1,15 +1,16 @@
 import { Zap, Wifi, MonitorSmartphone, ShieldCheck } from "lucide-react";
 import { Plan, FaqItem, Feature } from "./types";
 
-// Pricing updated to match the screenshots provided
+// Pricing updated to match Braip checkouts
 export const PLANS: Plan[] = [
   {
     id: 'basic',
-    name: 'PLANO BASIC',
-    duration: '1 Mês',
-    price: 'R$ 14,97',
-    oldPrice: 'R$ 37,90',
+    name: 'P2P STREAM',
+    duration: '01 Unidade',
+    price: 'R$ 497,00',
+    oldPrice: 'R$ 797,00',
     featured: false,
+    checkoutUrl: 'https://ev.braip.com/checkout/pla29240/chej5879',
     benefits: [
       'Mais de 60.000 conteúdos',
       'Qualidade SD/HD/FHD/4K',
@@ -24,11 +25,12 @@ export const PLANS: Plan[] = [
   },
   {
     id: 'premium',
-    name: 'PLANO PREMIUM',
-    duration: '6 Meses',
-    price: 'R$ 49,97',
-    oldPrice: 'R$ 227,77',
+    name: 'P2P STREAM',
+    duration: '02 Unidades',
+    price: 'R$ 899,00',
+    oldPrice: 'R$ 1.594,00',
     featured: true,
+    checkoutUrl: 'https://ev.braip.com/checkout/plaxx200/chej5879',
     benefits: [
       'Mais de 60.000 conteúdos',
       'Qualidade SD/HD/FHD/4K',
@@ -43,11 +45,12 @@ export const PLANS: Plan[] = [
   },
   {
     id: 'family',
-    name: 'PLANO FAMILY',
-    duration: '12 Meses', // Inferred as the highest tier
-    price: 'R$ 99,97',
-    oldPrice: 'R$ 349,99',
+    name: 'P2P STREAM',
+    duration: '03 Unidades',
+    price: 'R$ 1.299,00',
+    oldPrice: 'R$ 2.391,00',
     featured: false,
+    checkoutUrl: 'https://ev.braip.com/checkout/plal8ygv/chej5879',
     benefits: [
       'Mais de 60.000 conteúdos',
       'Qualidade SD/HD/FHD/4K',

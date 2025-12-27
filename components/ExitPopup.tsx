@@ -63,9 +63,14 @@ export const ExitPopup: React.FC = () => {
           Libere seu acesso <strong className="text-white">PREMIUM</strong> agora e garanta 15 dias extras de bônus na sua assinatura.
         </p>
 
-        <button className="w-full bg-[#FF6B00] hover:bg-[#ff8533] text-black font-black py-4 rounded-full text-lg uppercase tracking-wider shadow-lg transition-transform hover:scale-105 mb-4">
+        <a
+          href="https://ev.braip.com/checkout/plaxx200/chej5879"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block w-full bg-[#FF6B00] hover:bg-[#ff8533] text-black font-black py-4 rounded-full text-lg uppercase tracking-wider shadow-lg transition-transform hover:scale-105 mb-4 text-center"
+        >
           QUERO MEU BÔNUS
-        </button>
+        </a>
         
         <button 
           onClick={() => setIsVisible(false)}

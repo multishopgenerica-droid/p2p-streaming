@@ -40,9 +40,15 @@ export const HeroSection: React.FC = () => {
             </div>
 
             <div className="flex flex-col items-center lg:items-start pt-6 gap-8">
-              <Button pulsing className="w-full md:w-auto text-base md:text-lg px-10 shadow-[0_0_40px_rgba(255,107,0,0.4)]">
-                QUERO TURBINAR MINHA TV!
-              </Button>
+              <a
+                href="https://ev.braip.com/checkout/plaxx200/chej5879"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button pulsing className="w-full md:w-auto text-base md:text-lg px-10 shadow-[0_0_40px_rgba(255,107,0,0.4)]">
+                  QUERO TURBINAR MINHA TV!
+                </Button>
+              </a>
               
               {/* Payment Methods */}
               <div className="flex flex-wrap justify-center lg:justify-start items-center gap-4 opacity-60 hover:opacity-100 transition-opacity duration-300">
